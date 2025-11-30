@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+/* for (initial_action; loop-condition; action-after-each-iteration){
+    Statement(s)
+} */
+int main(){
+    int sum = 0;
+    int i = 1;
+    while (i <=5){
+        sum = sum + i ;
+        i ++;
+    }
+    cout << "The sum is" << sum;
+}
