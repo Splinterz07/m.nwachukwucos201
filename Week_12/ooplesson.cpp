@@ -81,5 +81,7 @@ int main() {
     cout << employee1.getName() << " is " << employee1.getAge() << " years old." << endl;
     cout << employee2.getName() << " is " << employee2.getAge() << " years old." << endl;
 
+    employee.Promotion();
+    
     return 0;
 }
